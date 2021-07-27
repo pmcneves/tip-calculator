@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TipCalculator from './screens/';
+import Tips from './screens/Tips';
 import './styles/styles.scss'
-import logo from './logo.svg';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <TipCalculator />
+    <Tips />
   </React.StrictMode>,
   document.getElementById('root')
 );

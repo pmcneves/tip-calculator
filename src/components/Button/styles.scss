@@ -1,0 +1,55 @@
+.btn {
+    border: none;
+    border-radius: 5px;
+    color: $white;
+    font-family: inherit;
+    font-size: $font-size-large;
+    font-weight: $font-weight-bold;
+}
+
+.tip-percentage-btn {
+    background-color: $very-dark-cyan;
+    width: 160px;
+    height: 45px;
+    margin-bottom: $l-size;
+    &:hover {
+        background-color: $strong-cyan;
+        color: $very-dark-cyan;
+    }
+    &:active {
+        background-color: lighten($strong-cyan, 10%);
+    }
+}
+
+.active {
+    background-color: $strong-cyan;
+    color: $very-dark-cyan;
+}
+
+.custom-btn {
+    @extend .tip-percentage-btn;
+    background-color: $lighter-grayish-cyan;
+    color: $darker-grayish-cyan;
+    text-align: right;
+    pointer-events: none;
+}
+
+.reset-btn {
+    background-color: $strong-cyan;
+    color: $very-dark-cyan;
+    width: 100%;
+    margin-top: $l-size;
+
+    &:disabled {
+        background-color: darken($strong-cyan, 10%);
+        color: darken($darker-grayish-cyan, 2%);
+        cursor: not-allowed;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .reset-btn {
+        position: absolute;
+        bottom: 0;
+    }
+}

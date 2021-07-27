@@ -2,5 +2,17 @@
 @import './base/settings.scss';
 @import './base/base.scss';
 
-//components
-@import '../components/Header/styles.scss'
+//Components
+@import '../components/Header/styles.scss';
+@import '../components/Title/styles.scss';
+@import '../components/Input/styles.scss';
+@import '../components/Button/styles.scss';
+@import '../components/SummaryBox/styles.scss';
+
+//Containers
+@import '../containers/SelectTip/styles.scss';
+@import '../containers/Summary/styles.scss';
+@import '../containers/NumberOfPeople/styles.scss';
+
+//Screens
+@import '../screens/Tips/styles.scss';

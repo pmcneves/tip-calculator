@@ -1,4 +1,15 @@
-body {
-    font-family: "Space Mono", monospace, sans-serif;
-    background-color: $light-grayish-cyan;
+* {
+    box-sizing: border-box;
 }
+
+body {
+    background-color: $light-grayish-cyan;
+    font-family: "Space Mono", monospace;
+
+}
+
+button,
+input {
+    cursor: pointer;
+}
+

@@ -1,0 +1,40 @@
+.tips-section {
+    background-color: $white;
+    border-top-left-radius: $l-size;
+    border-top-right-radius: $l-size;
+    display: block;
+    padding: $l-size;
+}
+
+.right-card {
+    background-color: $very-dark-cyan;
+    border-radius: 10px;
+    padding: $xl-size $l-size $l-size $l-size;
+    margin-top: $xl-size;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 1100px) {
+    .tips-section {
+        align-items: stretch;
+        border-radius: $l-size;
+        display: flex;
+        margin: auto;
+        margin-top: $mega-size;
+        padding-bottom: $xl-size;
+        width: 70%;
+    }
+
+    .left-card {
+        width: 50%;
+        margin-left: $l-size;
+        margin-right: $l-size;
+    }
+
+    .right-card {
+        width: 50%;
+        margin-left: $l-size;
+        margin-right: $l-size;
+    }
+}

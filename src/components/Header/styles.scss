@@ -7,4 +7,12 @@ header {
 .logo {
     margin: $s-size;
     letter-spacing: $s-size;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-large;
+}
+
+@media only screen and (min-width: 1100px) {
+    header {
+        margin-top: $mega-size;
+    }
 }

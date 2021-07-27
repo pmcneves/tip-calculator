@@ -1,0 +1,35 @@
+.input-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.input {
+    background-color: $lighter-grayish-cyan;
+    border: none;
+    color: $very-dark-cyan;
+    font-family: inherit;
+    font-size: $font-form-input;
+    font-weight: $font-weight-bold;
+    outline-color: lighten($strong-cyan, 10%);
+    padding: $s-size $l-size;
+    text-align: right;
+    width: 100%;
+}
+
+.outline-orange {
+    outline-color: orangered;
+}
+
+.error-border {
+    border: orangered 1px solid
+}
+
+.custom-input {
+    width: 160px;
+}
+
+.icon {
+    position: absolute;
+    padding-left: $l-size;
+}

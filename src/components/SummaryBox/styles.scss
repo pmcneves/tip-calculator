@@ -1,0 +1,25 @@
+.summary-dollars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &:not(:first-child) {
+        margin-top: $xl-size;
+    }
+}
+
+.summary-title {
+    color: $white;
+    font-weight: $font-weight-bold;
+}
+
+.summary-subtitle {
+    color: $darker-grayish-cyan;
+    font-weight: $font-weight-bold;
+    margin-top: $m-size;
+}
+
+.summary-totals {
+    color: $strong-cyan;
+    font-size: $font-size-xlarge;
+    font-weight: $font-weight-bold;
+}
